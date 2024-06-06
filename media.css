@@ -190,7 +190,7 @@
         padding-top: 50px;
     }
     .main h1 {
-        font-size: 115px;
+        font-size: 111px;
         margin-top: -105px;
     }
     .book-btn {
@@ -212,7 +212,7 @@
     .wavy-line:before {
         content: "xxxxxxxxxxxxxx";
         position: relative;
-        top: -35px;
+        /*top: -35px;
         /*color: transparent;
         width: calc(100% + 27px);*/
         font-size: 45px;
