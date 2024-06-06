@@ -44,10 +44,10 @@ body{
 }
 
 
-.burger-menu img{
-    width: 65px;
+.burger-menu img {
+    width: 50px;
     cursor: pointer;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 
@@ -126,6 +126,8 @@ body{
     right: 5%;
     cursor: pointer;
     animation: closeAppear 0.3s ease;
+    padding-top: 8px;
+    width: 45px;
 }
 
 @keyframes closeAppear{
@@ -258,8 +260,8 @@ body{
     width: calc(100% + 27px);
     font-size: 45px;
     text-decoration: wavy #194027 underline;
-    animation: animate 1.5s linear infinite;
-    -webkit-animation: animate 1.5s linear infinite;
+    /*animation: animate 1.5s linear infinite;
+    -webkit-animation: animate 1.5s linear infinite;*/
   }
   
   @keyframes animate {
