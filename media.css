@@ -210,11 +210,12 @@
     }
 
     .wavy-line:before {
+        display: table-sell;
         content: "xxxxxxxxxxxxxx";
         position: relative;
-        /*top: -35px;
-        /*color: transparent;
-        width: calc(100% + 27px);*/
+        top: -35px;
+        color: transparent;
+        width: calc(100% + 27px);
         font-size: 45px;
         text-decoration: wavy #194027 underline;
       }
