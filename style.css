@@ -14,6 +14,7 @@ body{
     font-family: 'QUARTZO Light';
     font-size: 30px;
     color: #194027;
+    z-index: 100000;
 }
 
 .nav-links{
@@ -35,6 +36,109 @@ body{
     font-size: 35px;
 }
 
+
+/* burger menu*/
+
+.burger-menu{
+    display: none;
+}
+
+
+.burger-menu img{
+    width: 65px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+
+
+#fullscreenMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: #fff6ed;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+}
+
+@keyframes bgAppear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes bgDisappear{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+#fullscreenMenu.show{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    animation: bgAppear 0.5s ease forwards;
+}
+
+#fullscreenMenu.hide{
+    animation: bgDisappear 0.5s ease forwards;
+}
+
+.burgMenu-link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 38px;
+    transition: 0.5s;
+    animation: linkAppear 0.8s ease forwards;
+}
+
+.burgMenu-link:hover{
+    color:#28633d;
+}
+
+@keyframes linkAppear{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.closeMenu{
+    position: absolute;
+    top: 1.5%;
+    right: 5%;
+    cursor: pointer;
+    animation: closeAppear 0.3s ease;
+}
+
+@keyframes closeAppear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/**/
+
 .header-container{
     padding: 10px 30px;
     display: flex;
@@ -43,7 +147,7 @@ body{
 
 .main img{
     position: relative;
-    width: 85%;
+    max-width: 85%;
     max-height: 600px;
     margin: 0 auto;
     display: block;

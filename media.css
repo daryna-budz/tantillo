@@ -1,0 +1,233 @@
+
+
+
+@media (max-width: 1440px){
+    .main h1{
+        font-size: 375px;
+    }
+
+    .book-btn{
+        width: 350px;
+        left: 69%;
+        margin-top: -480px;
+    }
+
+    .rejoice-container{
+        padding: 0 15px;
+    }
+
+    .hours p, .find-us p, .find-us a{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1200px){
+    .main h1{
+        font-size: 313px;
+    }
+
+    .book-btn{
+        width: 325px;
+        left: 66%;
+        margin-top: -375px;
+    }
+
+    .rejoice-img img{
+        width: 500px;
+        height: 600px;
+        margin-left: 25px;
+    }
+
+    .hours p, .find-us p, .find-us a{
+        font-size: 18px;
+    }
+
+    .gear-cont{
+        margin-left: 435px;
+    }
+}
+
+@media (max-width: 992px){
+    .burger-menu{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .header-container{
+        padding: 5px 30px 15px 30px;
+    }
+    .main h1{
+        font-size: 240px;
+        margin-top: -175px;
+    }
+    .book-btn{
+        width: 375px;
+        left: 50%;
+        transform: translateX(-48%);
+        margin-top: -170px;
+    }
+
+    .gear-cont{
+        margin-left: 350px;
+        margin-top: -625px;
+    }
+
+    .rejoice{
+        padding-bottom: 100px;
+    }
+
+    .rejoice-container{
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .find-us, .hours, .sitemap{
+        padding: 40px 0;
+    }
+
+    .rejoice-img{
+        order: 1;
+    }
+
+    .hours{
+        order: 2;
+    }
+
+    .find-us{
+        order: 3;
+    }
+
+    .hours p, .find-us p, .find-us a{
+        font-size: 21px;
+    }
+
+    .footer-header{
+        font-size: 150px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .find-us-footer{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:768px){
+    .main h1{
+        font-size: 180px;
+        margin-top: -135px;
+    }
+
+    .book-btn{
+        margin-top: -155px;
+    }
+
+    .rejoice-header{
+        font-size: 108px;
+    }
+
+    .gear-cont{
+        margin-left: 300px;
+    }
+
+    .footer-header{
+        font-size: 120px;
+    }
+}
+
+@media (max-width:576px){
+    .main h1{
+        font-size: 145px;
+        margin-top: -135px;
+    }
+
+    .book-btn{
+        margin-top: -100px;
+        width: 320px;
+    }
+
+    .rejoice-header{
+        font-size: 85px;
+    }
+
+    .rejoice-img img{
+        width: 430px;
+        height: 504px;
+        margin-left: 10px;
+    }
+
+    .gear-cont {
+        margin-left: 220px;
+        margin-top: -575px;
+    }
+
+    .gear-btn{
+        width: 225px;
+        height: 225px;
+    }
+
+    .gear-text{
+        margin-top: 115px;
+        margin-left: 115px;
+    }
+    .footer-header {
+        font-size: 95px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .main h1 {
+        font-size: 120px;
+        margin-top: -105px;
+    }
+    .book-btn {
+        margin-top: -100px;
+        width: 295px;
+        height: 100px;
+        font-size: 25px;
+    }
+
+    .book-btn:hover{
+        font-size: 27px;
+    }
+    .wavy-line{
+        margin-top: 80px;
+    }
+
+    .rejoice-header {
+        font-size: 70px;
+        margin-top: 80px;
+    }
+
+    .rejoice-img img {
+        width: 390px;
+        height: 465px;
+        margin-left: 5px;
+    }
+
+    .gear-cont {
+        margin-left: 180px;
+        margin-top: -510px;
+    }
+
+    .gear-btn {
+        width: 210px;
+        height: 210px;
+    }
+
+    .gear-text {
+        margin-left: 108px;
+    }
+
+    .footer-header {
+        font-size: 75px;
+    }
+
+}
