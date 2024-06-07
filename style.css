@@ -246,6 +246,7 @@ body{
 
 
 .wavy-line {
+    position: relative;
     width: 150px;
     height: 50px;
     overflow: hidden;
@@ -255,7 +256,7 @@ body{
   .wavy-line:before {
     display:block;
     content: "xxxxxxxxxxxxxx";
-    position: relative;
+    position: absolute;
     top: -35px;
     color: transparent;
     width: calc(100% + 27px);
@@ -266,11 +267,11 @@ body{
   }
   
   @keyframes animate {
-    0% { left: -0px; }
+    0% { left: 0; }
     100% { left: -45px;}
   }
   @-webkit-keyframes animate {
-    0% { left: -0px; }
+    0% { left: 0; }
     100% { left: -45px;}
   }
   
