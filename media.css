@@ -204,6 +204,7 @@
         font-size: 27px;
     }
     .wavy-line{
+        overflow: auto;
         margin-top: 80px;
     }
 
