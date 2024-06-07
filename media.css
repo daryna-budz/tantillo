@@ -203,9 +203,15 @@
     .book-btn:hover{
         font-size: 27px;
     }
+
     .wavy-line{
-        overflow: auto;
-        margin-top: 80px;
+        width: 100%;
+        overflow: visible;
+        margin-top: 20px;
+    }
+    .wavy-line:before {
+        font-size: 30px;
+        top: -10px;
     }
 
     .rejoice-header {
