@@ -205,20 +205,6 @@
     }
     .wavy-line{
         margin-top: 80px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .wavy-line:before {
-        content: "xxxxxxxxxxxxxx";
-        position: relative;
-        top: -35px;
-        color: transparent;
-        width: calc(100% + 27px);
-        font-size: 45px;
-        text-decoration: wavy #194027 underline;
-    
-        overflow: visible;
     }
 
     .rejoice-header {
