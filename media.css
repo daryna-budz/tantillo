@@ -203,17 +203,7 @@
     .book-btn:hover{
         font-size: 27px;
     }
-
-    .wavy-line{
-        width: 100%;
-        overflow: visible;
-        margin-top: 20px;
-    }
-    .wavy-line:before {
-        transform: translateZ(0);
-        font-size: 30px;
-        top: -10px;
-    }
+        
 
     .rejoice-header {
         text-align: center;

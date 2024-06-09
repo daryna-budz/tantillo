@@ -260,6 +260,7 @@ body{
     color: transparent;
     width: calc(100% + 27px);
     font-size: 45px;
+    -webkit-text-decoration: wavy #194027 underline;
     text-decoration: wavy #194027 underline;
     animation: animate 1.5s linear infinite;
     -webkit-animation: animate 1.5s linear infinite;
