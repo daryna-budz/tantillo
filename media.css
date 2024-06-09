@@ -200,10 +200,17 @@
         font-size: 25px;
     }
 
+    .wavy-line {
+        width: 120px;
+    }
+
     .book-btn:hover{
         font-size: 27px;
     }
         
+    .rejoice {
+        padding-bottom: 15px;
+    }
 
     .rejoice-header {
         text-align: center;
