@@ -507,3 +507,104 @@ footer{
     width: 55px;
     cursor: pointer;
 }
+
+.menu-line{
+    width: 250px;
+    z-index: 1;
+}
+
+.menu-header{
+    font-family: 'QUARTZO Regular';
+    color: #194027;
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-wrap: nowrap;
+}
+
+.menu-title{
+    font-family: 'QUARTZO Light';
+    color: #194027;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-wrap: nowrap;
+    z-index: 2;
+}
+
+.burger-name{
+    font-family: 'QUARTZO Light';
+    color: #194027;
+    font-size: 19px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-wrap: nowrap;
+    z-index: 2;
+}
+
+.burger-description{
+    color: #194027;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 350;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    z-index: 3;
+}
+
+.burger-info{
+    position: relative;
+}
+
+.graphic-elem-1{
+    position: absolute;
+    z-index: -1;
+    width: 180px;
+    left: 70%;
+    top: -30%;
+}
+
+.graphic-elem-2{
+    position: absolute;
+    z-index: -1;
+    width: 250px;
+    left: 20%;
+    top: 75%;
+}
+
+.graphic-elem-3{
+    position: absolute;
+    z-index: -1;
+    width: 150px;
+    left: 60%;
+    top: 170%;
+}
+
+.graphic-elem-3{
+    position: absolute;
+    z-index: -1;
+    width: 150px;
+    left: 60%;
+    top: 170%;
+}
+
+.graphic-elem-4{
+    position: absolute;
+    z-index: -1;
+    width: 400px;
+    left: 25%;
+    bottom: -75%;
+}
+
+.graphic-elem-5{
+    position: absolute;
+    z-index: -1;
+    width: 100px;
+    left: 65%;
+    top: 145%;
+}
