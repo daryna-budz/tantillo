@@ -15,8 +15,12 @@ body{
     font-size: 30px;
     color: #194027;
     z-index: 100000;
-    text-decoration: none;
     cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #194027;
 }
 
 .nav-links{
@@ -592,7 +596,7 @@ footer{
     z-index: -1;
     width: 150px;
     left: 60%;
-    top: 170%;
+    top: 90%;
 }
 
 .graphic-elem-4{
