@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantillo</title>
-    <link rel="icon" type="image/x-icon" href="images/burger-icon.png">
+    <link rel="icon" type="image/x-icon" href="images/icons/burger-icon.png">
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <header>
@@ -15,14 +15,14 @@
             <h2 class="logo"><a href="index.html" class="logo">tantillo</a></h2>
             <nav class="nav-links" id="navLinks">
                <a href="menu.html">menu</a>
-               <a href="#">reservations</a>
+               <a href="reservations.html">reservations</a>
             </nav>
             <div class="burger-menu">
-                <img src="images/hamburger-menu.ico" alt="burger-menu" onclick="showMenu()">
+                <img src="images/icons/hamburger-menu.ico" alt="burger-menu" onclick="showMenu()">
                 <div id="fullscreenMenu">
-                    <img src="images/cross.svg" alt="close icon" class="closeMenu" onclick="closeMenu()">
+                    <img src="images/icons/cross.svg" alt="close icon" class="closeMenu" onclick="closeMenu()">
                         <a href="menu.html" class="logo burgMenu-link">menu</a>
-                        <a href="#" class="logo burgMenu-link">reservations</a>
+                        <a href="reservations.html" class="logo burgMenu-link">reservations</a>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <!--<img src="https://images.squarespace-cdn.com/content/v1/653a7d83cfe20f0db5c4b9fb/b31a56da-6653-4779-a9a1-fe2e644cafbc/Tantillo_Image.jpg?format=2500w" alt="burger">-->
         <img src="images/file.png" alt="burger">
         <h1>bite me</h1>
-        <button class="book-btn">BOOK A TABLE</button>
+        <button class="book-btn"><a href="reservations.html">BOOK A TABLE</a></button>
         <div class="wavy-line wavy-line-green" ></div>
     </section>
 
@@ -85,7 +85,7 @@
             <div class="sitemap">
                 <h2>SITEMAP</h2>
                 <a href="menu.html">Menu</a><br>
-                <a href="#">Reservations</a>
+                <a href="reservations.html">Reservations</a>
             </div>
             <div class="find-us find-us-footer">
                 <h2>FIND US</h2>
@@ -110,6 +110,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

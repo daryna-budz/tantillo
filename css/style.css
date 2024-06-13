@@ -228,7 +228,6 @@ body{
     background-color: #ed6b2d;
     color: #194027;
     font-family: 'QUARTZO Regular';
-    color: #194027;
     font-size: 30px;
     text-wrap: nowrap;
     text-align: center;
@@ -238,6 +237,11 @@ body{
     margin-top: -550px;
     transition: 0.6s ease;
     cursor: pointer;
+}
+
+.book-btn a{
+    text-decoration: none;
+    color: #194027;
 }
 
 .book-btn:hover{
@@ -609,4 +613,139 @@ footer{
     width: 100px;
     left: 65%;
     top: 145%;
+}
+
+.reserv-text{
+    max-width: 40%;
+}
+
+
+.dropdown, .dropdown-date, .dropdown-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.select, .select-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
+
+.drop-container{
+    line-height: 12px;
+}
+
+.date-container{
+    margin-top: -10px;
+}
+
+.drop-header{
+    color: #777676;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.selected, .selected-time{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.caret, .caret-time{
+    width: 30px;
+}
+
+.menu-size, .menu-time{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0; 
+    text-align: left;
+    background-color: #fff;
+    width: 220px;
+    max-height: 200px;
+    overflow-y: auto;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000;
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+}
+
+.menu-size li, .menu-time li{
+    text-align: left;
+    padding: 15px 0;
+    padding-left: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.menu-size li:hover, .menu-time li:hover{
+    background-color: #eeeded;
+}
+
+
+.active{
+    background-color: #eeeded;
+}
+
+.menu-open{
+    display: block;
+    opacity: 1;
+}
+
+.datetime{
+    border: none;
+    width: 150px;
+    margin-left: -2px;
+    margin-top: -5px;
+    cursor: default;
+}
+
+
+.bookNow-btn{
+    padding-top: 20px;
+    width: 220px;
+    height: 40px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #2e7849;
+    background-color: #ed6b2d;
+    border-radius: 1px 5px 5px 1px;
+    font-family: 'QUARTZO Light';
+    font-size: 25px;
+    color: #194027;
+    text-wrap: nowrap;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bookNow-btn:hover{
+    font-size: 27px;
+    color:#ffe600;
+}
+
+.booking-container{
+    display: flex;
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
 }

@@ -116,6 +116,15 @@
     .find-us-footer{
         margin-left: 0;
     }
+
+    .booking-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bookNow-btn{
+        border-radius: 1px;
+    }
 }
 
 @media (max-width:768px){

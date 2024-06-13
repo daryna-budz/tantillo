@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/burger-icon.png">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h2 class="logo"><a href="index.html" class="logo">tantillo</a></h2>
+            <nav class="nav-links" id="navLinks">
+               <a href="menu.html">menu</a>
+               <a href="reservations.html">reservations</a>
+            </nav>
+            <div class="burger-menu">
+                <img src="images/icons/hamburger-menu.ico" alt="burger-menu" onclick="showMenu()">
+                <div id="fullscreenMenu">
+                    <img src="images/icons/cross.svg" alt="close icon" class="closeMenu" onclick="closeMenu()">
+                        <a href="menu.html" class="logo burgMenu-link">menu</a>
+                        <a href="reservations.html" class="logo burgMenu-link">reservations</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="reserv-main">
+        <div class="wavy-line wavy-line-green menu-line" ></div>
+        <h2 class="rejoice-header">FOODIES, IT’S TIME TO REJOICE.</h2>
+        <p class="rejoice-text reserv-text">Come for the burgers, stay for the smiles. At Tantillo we're serving up quirkiness with a side of deliciousness. Get ready to unwrap the unexpected!</p>
+
+        <div class="booking-container">
+            <div class="dropdown">
+                <div class="select">
+                    <div class="drop-container">
+                        <p class="drop-header">Party size</p>
+                        <p class="selected">1 guest</p>
+                    </div>
+                    <img src="images/icons/down.png" alt="more icon" class="caret">
+                </div>
+                <ul class="menu-size">
+                    <li class="active">1 guest</li>
+                    <li>2 guests</li>
+                    <li>3 guests</li>
+                    <li>4 guests</li>
+                    <li>5 guests</li>
+                    <li>6 guests</li>
+                    <li>7 guests</li>
+                    <li>8 guests</li>
+                </ul>
+            </div>
+        
+            <div class="dropdown-date">
+                <div class="select select-date">
+                    <div class="drop-container date-container">
+                        <p class="drop-header">Date</p>
+                        <input class="selected datetime"></input>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="dropdown-time">
+                <div class="select-time">
+                    <div class="drop-container">
+                        <p class="drop-header">Time</p>
+                        <p class="selected-time">12:00 AM</p>
+                    </div>
+                    <img src="images/icons/down.png" alt="more icon" class="caret-time">
+                </div>
+                <ul class="menu-time">
+                    <li class="active">12:00 AM</li>
+                    <li>12:30 AM</li>
+                    <li>1:00 AM</li>
+                    <li>1:30 AM</li>
+                    <li>2:00 AM</li>
+                    <li>2:30 AM</li>
+                    <li>3:00 AM</li>
+                    <li>3:30 AM</li>
+                    <li>4:00 AM</li>
+                    <li>4:30 AM</li>
+                    <li>5:00 AM</li>
+                    <li>5:30 AM</li>
+                    <li>6:00 AM</li>
+                    <li>6:30 AM</li>
+                    <li>7:00 AM</li>
+                </ul>
+            </div>
+        
+            <div onclick="bookNow()" class="bookNow-btn">BOOK NOW</div>
+        </div>
+
+   </section>
+
+
+
+
+   <footer>
+    <div class="wavy-line wavy-line-white"></div>
+    <h2 class="footer-header">BITE INTO<br> FLAVOR!</h2>
+    <div class="footer-container">
+        <div class="sitemap">
+            <h2>SITEMAP</h2>
+            <a href="menu.html">Menu</a><br>
+            <a href="reservations.html">Reservations</a>
+        </div>
+        <div class="find-us find-us-footer">
+            <h2>FIND US</h2>
+            <p>123 Demo St, New York, NY</p>
+            <p><a href="tel:+555555555">(555) 555-5555</a></p>
+            <p><a href="mailto:email@example.com">email@example.com</a></p>
+        </div>
+        <div class="hours hours-footer">
+            <h2>HOURS</h2>
+            <p>Mon: CLOSED<br>
+                Tue to Fri: 11 AM – 10 PM<br>
+                Sat to Sun: 12 PM – 7 PM</p>
+        </div>
+    </div>
+    <div class="media-container">
+        <!--Icons from : <a href="https://iconscout.com/icons/twitter" class="text-underline font-size-sm" target="_blank">twitter</a> by <a href="https://iconscout.com/contributors/roundicons-com" class="text-underline font-size-sm" target="_blank">Roundicons.com</a>-->
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.2 19.2" id="Instagram"><path d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.03 2.02.03s1.493-.006 2.02-.03a2.766 2.766 0 0 0 .929-.172 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.03-.685.03-2.02s-.006-1.493-.03-2.02a2.766 2.766 0 0 0-.172-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6z" fill="#ffffff" class="color000000 svgShape"></path><circle cx="9.6" cy="9.6" r="1.667" fill="#ffffff" class="color000000 svgShape"></circle><path d="M9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.662a3.67 3.67 0 0 1-.233 1.213 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .233-1.213 2.556 2.556 0 0 1 1.462-1.462 3.67 3.67 0 0 1 1.213-.233c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.233 2.556 2.556 0 0 1 1.462 1.462 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z" fill="#ffffff" class="color000000 svgShape"></path></svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.999 128" id="Facebook"><path fill="#ffffff" d="M64 7.989c-30.885 0-56.01 25.126-56.01 56.01 0 30.885 25.125 56.012 56.01 56.012 30.883 0 56.01-25.127 56.01-56.012 0-30.884-25.127-56.01-56.01-56.01zm15.83 35.358a1 1 0 0 1-1 1l-6.367.004c-4.201 0-4.969 1.636-4.969 4.858v6.684h10.92c.287 0 .561.124.75.34s.277.503.242.788l-1.555 12.033a1 1 0 0 1-.992.872h-9.365v29.879a1 1 0 0 1-1 1H54.07a1 1 0 0 1-1-1V69.926h-9.395a1 1 0 0 1-1-1V56.893a1 1 0 0 1 1-1h9.395v-7.875c0-10.43 6.312-16.908 16.475-16.908 4.369 0 8.23.325 9.416.482a1 1 0 0 1 .869.991v10.764z" class="color231f20 svgShape"></path></svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" id="twitter"><path fill="#ffffff" d="M63.999 7.989c-30.883 0-56.009 25.126-56.009 56.01 0 30.885 25.126 56.012 56.009 56.012 30.885 0 56.011-25.127 56.011-56.012-.001-30.884-25.127-56.01-56.011-56.01zm29.81 41.402a23.97 23.97 0 0 1-5.464 5.798c.009.325.015.65.015.975 0 16.334-12.429 33.229-33.229 33.229a33.135 33.135 0 0 1-17.905-5.244.997.997 0 0 1-.402-1.177.99.99 0 0 1 1.056-.658c.877.101 1.746.151 2.584.151 4.08 0 7.968-1.097 11.381-3.193a12.318 12.318 0 0 1-8.842-8.221 1.003 1.003 0 0 1 .204-.969.993.993 0 0 1 .938-.317c.188.036.377.067.565.093-3.473-2.213-5.726-6.104-5.726-10.412v-.143a1 1 0 0 1 1.485-.874c.435.241.886.45 1.349.626a12.318 12.318 0 0 1-2.742-7.762c0-2.178.577-4.322 1.668-6.199a1 1 0 0 1 1.64-.13c5.319 6.522 13.051 10.625 21.368 11.381a12.57 12.57 0 0 1-.088-1.493c0-6.797 5.531-12.327 12.329-12.327 3.207 0 6.31 1.265 8.599 3.487a21.637 21.637 0 0 0 6.351-2.519 1 1 0 1 1 1.464 1.163 12.225 12.225 0 0 1-2.32 4.188 21.278 21.278 0 0 0 2.487-.924 1 1 0 0 1 1.235 1.471z" class="color231f20 svgShape"></path></svg></a>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
