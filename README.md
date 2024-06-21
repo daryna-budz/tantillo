@@ -13,6 +13,7 @@
 <h4>• HTML5</h4>
 <h4>• CSS3</h4>
 <h4>• JavaScript</h4>
+<h4>• Additionally flatpickr.js used for custom date picking menu and SweetAlert library used for custom confirmation alert</h4>
 
 <h2>Usage</h2>
 <h4>• Explore the main page to learn the overall info, view the menu by clicking "menu" link, and make a reservation on the "reservations" page</h4>
